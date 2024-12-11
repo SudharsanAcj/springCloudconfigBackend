@@ -1,0 +1,1 @@
+curl --location --request GET 'http://localhost:8081/api/configs/Service1/Production/git-responses'

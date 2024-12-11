@@ -1,0 +1,13 @@
+curl --location 'http://localhost:8081/api/configs/service1/Prod' \
+--header 'Content-Type:  application/json' \
+--data '[
+    {
+        "configKey": "jvm.config.max.memory",
+        "configValue": "301ms"
+    },
+    {
+        "configKey": "retry.max-attempts",
+        "configValue": "1010"
+    }
+]
+'
